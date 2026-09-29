@@ -1,10 +1,22 @@
-.grid {
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-    gap: 10px;
+.comparacion {
+    width: 80%;
+    border: 3px solid black;
 }
 
-.grid div {
-    border: 2px solid black;
-    padding: 20px;
+.caja {
+    margin: 10px 0;
+    padding: 10px;
+    border: 2px solid gray;
+}
+
+.caja-px {
+    width: 300px;
+}
+
+.caja-porcentaje {
+    width: 50%;
+}
+
+.caja-vw {
+    width: 50vw;
 }
