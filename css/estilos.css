@@ -1,22 +1,17 @@
-.comparacion {
+.tarjeta {
     width: 80%;
-    border: 3px solid black;
+    padding: 1.5rem;
 }
 
-.caja {
-    margin: 10px 0;
-    padding: 10px;
-    border: 2px solid gray;
+.titulo {
+    font-size: 1.75rem;
 }
 
-.caja-px {
-    width: 300px;
+.banner {
+    min-height: 50vh;
 }
 
-.caja-porcentaje {
-    width: 50%;
-}
-
-.caja-vw {
-    width: 50vw;
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
