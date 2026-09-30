@@ -1,17 +1,36 @@
-.tarjeta {
-    width: 80%;
-    padding: 1.5rem;
-}
-
-.titulo {
-    font-size: 1.75rem;
-}
-
-.banner {
+.panel-cursos {
+    width: 90%;
     min-height: 50vh;
+    margin: 2rem auto;
+    padding: 1rem;
+    border: 2px solid black;
 }
 
-.contenedor {
+.panel-cursos h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.cursos-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    gap: 2vw;
+}
+
+.tarjeta-curso {
+    width: 90%;
+    padding: 1.5rem;
+    border: 2px solid gray;
+}
+
+.tarjeta-curso h3 {
+    font-size: 1.5rem;
+}
+
+.pie-pagina {
+    width: 100%;
+    min-height: 10vh;
+    text-align: center;
+    padding: 1rem;
+    border-top: 3px solid black;
 }

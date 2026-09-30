@@ -4,51 +4,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Laboratorio - Unidades CSS</title>
+    <title>Parte I - Reto independiente</title>
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 
 <body>
+
     <header>
-        <h1>Laboratorio de Unidades CSS</h1>
-        <p>Experimentando con px, %, rem, vw, vh y fr</p>
+        <h1>Panel de Cursos Universitarios</h1>
     </header>
+
     <main>
-        <section>
-            <h2>1. Unidad px</h2>
-            <div class="ejemplo-px">Elemento medido con px</div>
-        </section>
-        <section>
-            <h2>2. Unidad %</h2>
-            <div class="contenedor-porcentaje">
-                <div class="elemento-porcentaje">50%</div>
+
+        <section class="panel-cursos">
+
+            <div class="cursos-grid">
+
+                <article class="tarjeta-curso">
+                    <h2>Desarrollo Web</h2>
+                    <p>
+                        Curso enfocado en HTML, CSS y desarrollo de interfaces web.
+                    </p>
+                </article>
+
+                <article class="tarjeta-curso">
+                    <h2>POO I</h2>
+                    <p>
+                        Curso enfocado en programación orientada a objetos.
+                    </p>
+                </article>
+
+                <article class="tarjeta-curso">
+                    <h2>Bases de Datos</h2>
+                    <p>
+                        Curso enfocado en diseño, organización y manejo de bases de datos.
+                    </p>
+                </article>
+
             </div>
+
         </section>
-        <section>
-            <h2>3. Unidad rem</h2>
-            <div class="ejemplo-rem">Texto y espaciado con rem</div>
-        </section>
-        <section>
-            <h2>4. Unidades vw y vh</h2>
-            <div class="ejemplo-viewport">Elemento relacionado con el viewport</div>
-        </section>
-        <section>
-            <h2>5. Unidad fr</h2>
-            <div class="grid">
-                <div>Columna 1</div>
-                <div>Columna 2</div>
-                <div>Columna 3</div>
-            </div>
-        </section>
+
     </main>
-    <section>
-        <h2>6. Comparación de unidades</h2>
-        <div class="comparacion">
-            <div class="caja caja-px">300px</div>
-            <div class="caja caja-porcentaje">50%</div>
-            <div class="caja caja-vw">50vw</div>
-        </div>
-    </section>
+
+    <footer class="pie-pagina">
+        <p>Panel de Cursos Universitarios</p>
+    </footer>
 
 </body>
 
